@@ -1,0 +1,105 @@
+{
+    "command_patterns": {
+        "time": {
+            "verbs": [
+                "tell",
+                "show",
+                "give",
+                "what"
+            ],
+            "nouns": [
+                "time",
+                "clock",
+                "hour"
+            ],
+            "phrases": [
+                "what time",
+                "current time",
+                "time now"
+            ]
+        },
+        "weather": {
+            "verbs": [
+                "check",
+                "tell",
+                "what"
+            ],
+            "nouns": [
+                "weather",
+                "temperature",
+                "forecast"
+            ],
+            "phrases": [
+                "weather like",
+                "temperature now",
+                "going to rain"
+            ]
+        },
+        "music": {
+            "verbs": [
+                "play",
+                "start",
+                "begin",
+                "listen"
+            ],
+            "nouns": [
+                "song",
+                "music",
+                "track",
+                "audio"
+            ],
+            "phrases": [
+                "play song",
+                "start music",
+                "play track"
+            ]
+        },
+        "system": {
+            "verbs": [
+                "open",
+                "close",
+                "launch",
+                "start",
+                "stop",
+                "terminate"
+            ],
+            "nouns": [
+                "program",
+                "app",
+                "application",
+                "window"
+            ],
+            "phrases": [
+                "open program",
+                "launch app",
+                "start application"
+            ]
+        }
+    },
+    "context_patterns": {
+        "time": [
+            "now",
+            "current",
+            "today",
+            "tonight",
+            "morning",
+            "evening"
+        ],
+        "location": [
+            "here",
+            "there",
+            "nearby",
+            "around",
+            "local"
+        ],
+        "quantity": [
+            "one",
+            "two",
+            "three",
+            "few",
+            "many",
+            "some",
+            "all"
+        ]
+    }
+}
