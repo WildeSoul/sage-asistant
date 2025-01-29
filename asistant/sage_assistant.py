@@ -26,7 +26,7 @@ class VoiceAssistant(TextAssistant):
             self.engine.setProperty('volume', 1.0)  # Volume level (0.0 to 1.0)
             
             # YouTube API key
-            self.API_KEY = 'AIzaSyCXCuVm0qyUONuF-OfAsVI49kXnTPmQouE'
+            self.API_KEY = '........'
         except Exception as e:
             print(f"Error initializing voice components: {e}")
             raise e
