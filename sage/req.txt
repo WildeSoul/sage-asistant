@@ -1,0 +1,12 @@
+pip install pyttsx3
+pip install SpeechRecognition
+pip install pyautogui
+pip install pywinauto
+pip install psutil
+pip install wikipedia
+pip install pywhatkit
+pip install google-api-python-client
+pip install requests
+pip install pytesseract
+pip install Pillow
+pip install pyjokes
